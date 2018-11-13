@@ -1,0 +1,6 @@
+{
+  "host": "eatableinstance.cp6g9rhjwopl.ap-northeast-2.rds.amazonaws.com",
+  "user": "itda",
+  "password": "Dltek123!",
+  "database": "eatable"
+}

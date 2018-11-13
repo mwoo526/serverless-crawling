@@ -1,0 +1,26 @@
+{
+  "name": "serverless-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "sls deploy",
+    "local": "serverless offline start",
+    "start": "node app.local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio-httpcli": "^0.7.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "iconv-lite": "^0.4.24",
+    "mql2": "^0.1.20",
+    "node-cron": "^2.0.3",
+    "serverless-http": "^1.8.0",
+    "serverless-offline": "^3.31.0"
+  }
+}

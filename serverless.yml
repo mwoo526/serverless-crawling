@@ -1,0 +1,20 @@
+# serverless.yml
+
+service: serverless-framework
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: ap-northeast-2
+
+
+functions:
+  app:
+    handler: app.handler
+    events:
+    - http: ANY /
+    - http: 'ANY {proxy+}'
+
+plugins:
+- serverless-offline
